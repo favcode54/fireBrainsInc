@@ -61,3 +61,14 @@
 	border-right:0;
 	border-left: 0;
 }
+
+
+/* Changing the style of the modal-dialog on large screens only. */
+
+@media (min-width: 768px){
+
+.modal-dialog {
+    width: 500px !important;
+}
+
+}
