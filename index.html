@@ -15,6 +15,10 @@
 
     <title>FireBrains - Job Portal </title>
 
+
+      <!-- UIKIT css....Major backbone for the smooth scroll -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css" />
+
     <!-- Bootstrap Core CSS -->
 	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
 	
@@ -103,7 +107,7 @@
 						
 						
 						<li >
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>How it works</b></a>
+							<a href="#how-it-works" class="dropdown-toggle" uk-scroll='duration:3000'  data-toggle="dropdown"><b>How it works</b></a>
 							
 						</li>
 						
@@ -129,7 +133,7 @@
 						<h2>Find the right talents for your job</h2>
 						<p>So many business owners, innovators, etc  use Freelancers to bring their ideas to life.</p>
 
-						<a href="#" class="btn theme-btn btn-m mrg-5"><span class="ti-search padd-r-5"></span>Search for jobs</a>
+						<a href="#job-section" uk-scroll='duration:3000' class="btn theme-btn btn-m mrg-5"><span class="ti-search padd-r-5"></span>Search for jobs</a>
 						<a href="#" class="btn btn-hiring btn-m mrg-5"><span class="ti-briefcase padd-r-5"></span>Post a Job for Free</a>
 					</div>
 					
@@ -181,7 +185,7 @@
 		<!-- ======================= End Banner ===================== -->
 		
 		<!-- ====================== How It Work ================= -->
-		<section class="how-it-works">
+		<section class="how-it-works" id="how-it-works">
 			<div class="container">
 				
 				<div class="row" data-aos="fade-up">
@@ -234,7 +238,7 @@
 		</section>
 		
 		<!-- ================= Category start ========================= -->
-		<section class="gray-bg">
+		<section class="gray-bg" id="job-section">
 			<div class="container">
 			
 				<div class="row" data-aos="fade-up">
@@ -1133,6 +1137,11 @@
 		<!-- =================== START JAVASCRIPT ================== -->
 		<!-- Jquery js-->
 		<script src="assets/js/jquery.min.js"></script>
+
+
+
+		<!-- UIKIT JAVASCRIPT..For the scroll control -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js"></script>
 		
 		<!-- Bootstrap js-->
 		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
