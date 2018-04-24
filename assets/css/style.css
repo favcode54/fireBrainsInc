@@ -68,7 +68,18 @@
 @media (min-width: 768px){
 
 .modal-dialog {
-    width: 500px !important;
+    width: 400px !important;
+}
+
+.modal-open .modal {
+   
+    overflow-y: hidden;
+}
+
+
+.log-option {
+    margin: 25px 0 5px;
+    
 }
 
 }
