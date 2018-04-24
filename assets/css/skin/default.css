@@ -64,7 +64,7 @@ nav.navbar.bootsnav ul.nav > li >a.btn-signup.red-btn {
     background: -moz-linear-gradient(left, rgba(20,145,222,1) 0%,rgba(185,57,208,1) 100%);
     background: -ms-linear-gradient(left, rgba(20,145,222,1) 0%,rgba(185,57,208,1) 100%);
     background: -o-linear-gradient(left, rgba(20,145,222,1) 0%,rgba(185,57,208,1) 100%);
-    background: linear-gradient(left, rgba(20,145,222,1) 0%,rgba(185,57,208,1) 100%);
+    background: linear-gradient(to left, #0f2d5b, #044a7a, #006996, #0089b0, #26aac6);
     opacity: 0.8;
 }
 
