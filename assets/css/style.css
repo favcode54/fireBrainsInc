@@ -48,3 +48,16 @@
     margin-right: 5px;
     width: 30px;
 }
+
+/* I CREATED A  CLASS CALLED HEIGHT-55..THIS IS TO REDUCE THE SIZE OF THE MAIN-BANNER FOUND IN THE HEADER OF INDEX.HTML  */
+.height-55{
+	height:55rem;
+}
+
+/* I REMOVED TOP BORDER LEFT BORDER AND RIGHT BORDER OF THE SIGNUP INPUT */
+
+.flat-input,.flat-input:focus,.flat-input:hover{
+	border-top:0;
+	border-right:0;
+	border-left: 0;
+}
