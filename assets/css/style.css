@@ -61,3 +61,25 @@
 	border-right:0;
 	border-left: 0;
 }
+
+
+/* Changing the style of the modal-dialog on large screens only. */
+
+@media (min-width: 768px){
+
+.modal-dialog {
+    width: 400px;
+}
+
+.modal-open .modal {
+   
+    overflow-y: hidden;
+}
+
+
+.log-option {
+    margin: 25px 0 5px;
+    
+}
+
+}

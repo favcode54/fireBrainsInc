@@ -1050,12 +1050,12 @@
 									
 									<div class="form-group">
 										<label>User Name</label>
-										<input type="text" class=" flat-input form-control" placeholder="User Name">
+										<input type="text" class="form-control" placeholder="User Name">
 									</div>
 									
 									<div class="form-group">
 										<label>Password</label>
-										<input type="password" class=" flat-input form-control" placeholder="*********">
+										<input type="password" class="form-control" placeholder="*********">
 									</div>
 									
 									<div class="form-group">
@@ -1091,12 +1091,12 @@
 									
 									<div class="form-group">
 										<label>User Name</label>
-										<input type="text" class=" flat-input form-control" placeholder="User Name">
+										<input type="text" class="form-control" placeholder="User Name">
 									</div>
 									
 									<div class="form-group">
 										<label>Password</label>
-										<input type="password" class=" flat-input form-control" placeholder="*********">
+										<input type="password" class="form-control" placeholder="*********">
 									</div>
 									
 									<div class="form-group">
