@@ -49,10 +49,6 @@
     width: 30px;
 }
 
-/* I CREATED A  CLASS CALLED HEIGHT-55..THIS IS TO REDUCE THE SIZE OF THE MAIN-BANNER FOUND IN THE HEADER OF INDEX.HTML  */
-.height-55{
-	height:55rem;
-}
 
 /* I REMOVED TOP BORDER LEFT BORDER AND RIGHT BORDER OF THE SIGNUP INPUT */
 
@@ -63,23 +59,3 @@
 }
 
 
-/* Changing the style of the modal-dialog on large screens only. */
-
-@media (min-width: 768px){
-
-.modal-dialog {
-    width: 400px;
-}
-
-.modal-open .modal {
-   
-    overflow-y: hidden;
-}
-
-
-.log-option {
-    margin: 25px 0 5px;
-    
-}
-
-}
